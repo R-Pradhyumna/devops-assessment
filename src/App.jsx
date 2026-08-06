@@ -8,8 +8,8 @@ import Spinner from "./pages/Spinner";
 const AppLayout = lazy(() => import("./pages/AppLayout"));
 const Home = lazy(() => import("./components/home/Home"));
 const Project = lazy(() => import("./components/project/Project"));
-const Announcements = lazy(() =>
-  import("./components/announcements/Announcements")
+const Announcements = lazy(
+  () => import("./components/announcements/Announcements"),
 );
 const Prizes = lazy(() => import("./components/prizes/Prizes"));
 const Formats = lazy(() => import("./components/formats/Formats"));
