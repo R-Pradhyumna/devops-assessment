@@ -1,4 +1,3 @@
-import js from "@eslint/js";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import globals from "globals";
@@ -26,7 +25,6 @@ export default [
         { allowConstantExport: true },
       ],
       "no-unused-vars": "warn",
-      "react/prop-types": "warn",
     },
   },
 ];
