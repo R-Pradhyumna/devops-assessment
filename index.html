@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Innovata | IS&E</title>
+    <meta
+      name="description"
+      content="Project Expo 2025 — Join us for the ultimate expo experience with innovation, creativity, and networking."
+    />
+
+    <!-- Preload critical assets -->
+    <link rel="preload" as="image" href="/assets/Event-logo.webp" />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="/fonts/poppins-v24-latin-regular.woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="/fonts/poppins-v24-latin-600.woff2"
+      crossorigin
+    />
+
+    <!-- Critical CSS - inline for fastest render -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      #root {
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
